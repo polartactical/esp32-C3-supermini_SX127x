@@ -1,2 +1,13 @@
 # esp32-C3-supermini_SX127x
 Meschore configuration for ESP32 Supermini C3 with SX127x LoRa
+
+Wiring
+
+SCK   -> 4
+MISO  -> 5
+MOSI  -> 6
+SS    -> 7
+RST   -> 3
+DIO0  -> 1
+VCC   -> 3V3
+GND   -> GND
