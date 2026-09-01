@@ -260,13 +260,13 @@ small guarded block in the two app main files — deliberately mirroring the exi
   same pin.
 - No new source files enter any `build_src_filter`; the helper is header-only.
 
-### Testing
+### Testing (1.9.2026 TBD)
 
-- Bench-tested on an ESP32-C3 SuperMini + SX1278 headless repeater build, button on GPIO 10 to GND
-- Verified short press produces a zero-hop advert and a 3 s hold produces a flood advert, both seen
-  by a neighbouring node
-- Verified the cool-off suppresses repeat presses
-- Verified an unchanged build (flag absent) is byte-identical in behaviour
+~~- Bench-tested on an ESP32-C3 SuperMini + SX1278 headless repeater build, button on GPIO 10 to GND~~
+~~- Verified short press produces a zero-hop advert and a 3 s hold produces a flood advert, both seen
+  by a neighbouring node~~
+~~- Verified the cool-off suppresses repeat presses~~
+~~- Verified an unchanged build (flag absent) is byte-identical in behaviour~~
 
 ### Known limitation
 
