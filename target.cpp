@@ -30,10 +30,19 @@ AutoDiscoverRTCClock rtc_clock(fallback_clock);
 
 SensorManager sensors;
 
+#ifdef PIN_USER_BTN
+ButtonAdvert btn_advert;
+#endif
+
 bool radio_init()
 {
     fallback_clock.begin();
     rtc_clock.begin(Wire);
+
+    #ifdef PIN_USER_BTN
+    btn_advert.begin();
+    #endif
+
 
 #if defined(P_LORA_SCLK)
     return radio.std_init(&spi);
