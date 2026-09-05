@@ -19,3 +19,5 @@ Note special wiring needed.
 
 Create a new folder inside ./meshcore-main/variants/ called "esp32-C3-supermini_SX1278
 Choose the correct env inside PlatformIO and compile.
+
+TODO: Finish adding a advert button and test functions.
